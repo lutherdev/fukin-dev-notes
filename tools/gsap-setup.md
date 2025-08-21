@@ -10,6 +10,11 @@
 0. if you already have npm, SKIP to 2
 1. visit node-setup.md
 2. install gsap: npm install gsap
+- optional: npm install gsap @gsap/react // FOR USING GSAP IN REACT by HOOKS
 3. use gsap in js file: 
 - import { gsap } from "gsap";
 - gsap.to(".box", { duration: 1, x: 100 });
+
+- optional: import {useGSAP} from "@gsap/react";
+- optional: inside the component
+- useGSAP(()=>{ //PUT THE ANIMATION HERE })
